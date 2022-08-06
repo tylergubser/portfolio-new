@@ -21,7 +21,7 @@ const About = () => {
                 technology while also contributing to the strategic growth of the company.
                 </p>
                 <p>
-                I'm quietly confident, naturally curious, and perpetually working on improving my skills one design problem at a time. </p>
+                I'm naturally curious, and perpetually working on improving my skills one design problem at a time. </p>
                 <p>
                 For me, the exciting part of software development is the limitless potential to create innovative
                 systems, applications, and programs. Software has transformed the way societies around the
