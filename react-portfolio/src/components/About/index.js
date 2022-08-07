@@ -3,7 +3,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 
 const About = () => {
-    const [letterClass, setLetterClass] = useState('text-animate')
+    // const [letterClass, setLetterClass] = useState('text-animate')
 
     // useEffect(() => {
     //     return setTimeout(() => {
