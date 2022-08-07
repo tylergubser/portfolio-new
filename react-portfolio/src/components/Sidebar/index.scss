@@ -101,6 +101,12 @@
           content: 'PORTFOLIO';
         }
       }
+
+      a.project-link {
+        &:after {
+          content: 'PROJECTS';
+        }
+      }
   
       a.active {
         svg {
