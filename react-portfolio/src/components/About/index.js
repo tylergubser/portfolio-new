@@ -5,11 +5,11 @@ import { useEffect, useState } from 'react'
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
 
-    useEffect(() => {
-        return setTimeout(() => {
-            setLetterClass('text-animate-hover')
-        }, 3000)
-    }, [])
+    // useEffect(() => {
+    //     return setTimeout(() => {
+    //         setLetterClass('text-animate-hover')
+    //     }, 3000)
+    // }, [])
     
     return(
         <div className='container about-page'>
