@@ -98,15 +98,15 @@
   
       a.portfolio-link {
         &:after {
-          content: 'PORTFOLIO';
+          content: 'MY WORK';
         }
       }
 
-      a.project-link {
-        &:after {
-          content: 'PROJECTS';
-        }
-      }
+      // a.project-link {
+      //   &:after {
+      //     content: 'PROJECTS';
+      //   }
+      // }
   
       a.active {
         svg {
