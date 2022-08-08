@@ -1,0 +1,30 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/1/one.png",
+            "title": "Drink Up",
+            "description": "React, JavaScript, Tailwind, Twilio, CSS, HTML, Ruby, Ruby on Rails",
+            "url": "https://www.youtube.com/watch?v=xy7lcuOWRXQ"
+        },
+        {
+            "cover": "/portfolio/1/two.png",
+            "title": "East Coast Fishing Co.",
+            "description": "React, JavaScript, Tailwind, CSS, HTML, Ruby, Ruby on Rails",
+            "url": "https://github.com/tylergubser/East-Coast-Fishing"
+        },
+        {
+            "cover": "/portfolio/1/three.png",
+            "title": "Portfolio Game",
+            "description": "JavaScript, CSS, HTML, Canvas",
+            "url": "https://github.com/tylergubser/portfolio-game-server"
+        },
+        {
+            "cover": "/portfolio/1/four.png",
+            "title": "Rick and Morty Fan Page",
+            "description": "JavaScript, CSS, HTML",
+            "url": "https://tylergubser.github.io/phase1RickAndMortyProject/"
+        }
+
+
+    ]
+}

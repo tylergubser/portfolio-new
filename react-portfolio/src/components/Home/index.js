@@ -5,7 +5,7 @@ import letterT from '../../assets/images/letterT.png'
 import AnimatedLetters from '../AnimatedLetters'
 import Loader from 'react-loaders'
 import Logo from './Logo'
-// import Loader from 'react-loaders'
+
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
 
@@ -27,11 +27,15 @@ const Home = () => {
     '.',
   ]
 
-    // useEffect(() => {
-    // return setTimeout(() => {
-    // setLetterClass('text-animate-hover')
-    // }, 4000)
-    // }, [])
+  useEffect(() => {
+    const timer = setTimeout(() => {
+        setLetterClass('text-animate-hover');
+    }, 4000);
+
+    return () => {
+        clearTimeout(timer);
+    }
+})
 
     return (
         <>

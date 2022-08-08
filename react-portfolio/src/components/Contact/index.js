@@ -1,7 +1,7 @@
 import './index.scss'
 import Loader from 'react-loaders'
 import  AnimatedLetters  from '../AnimatedLetters';
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
@@ -10,6 +10,16 @@ const Contact = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate')
     const form = useRef()
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setLetterClass('text-animate-hover');
+        }, 3000);
+
+        return () => {
+            clearTimeout(timer);
+        }
+    })
 
     // useEffect(() => {
     //     return setTimeout(() => {

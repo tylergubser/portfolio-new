@@ -38,31 +38,24 @@
     animation-delay: 1s;
   }
 
-  .about-page,
-  .contact-page {
-    .text-zone {
-        position: absolute;
-        left: 10%;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 35%;
-        vertical-align: middle;
-        display: table-cell;
-        max-height: 90%;
+  .container.about-page,
+  .container.contact-page, 
+  .container.portfolio-page {
+    
 
         h1 {
             font-size: 53px;
             font-family: "coolvetica";
             color: #ffd700;
             font-weight: 400;
-            margin-top: 0;
+            margin-top: 0.1;
             position: relative;
             margin-bottom: 40px;
-            left: 10px;
+            left: -10px;
 
             &::before {
                 content: '<h1>';
-                font-family: 'La Belle Aurore';
+                font-family: 'La Belle Aurore', cursive;
                 font-size: 18px;
                 position: absolute;
                 margin-top: -10px;
@@ -73,7 +66,7 @@
 
             &::after {
                 content: '<h1/>';
-                font-family: 'La Belle Aurore';
+                font-family: 'La Belle Aurore', cursive;
                 font-size: 18px;
                 line-height: 18px;
                 position: absolute;
@@ -106,6 +99,16 @@
                 animation-delay: 1.3s;
             }
         }
+
+        .text-zone {
+            position: absolute;
+            left: 10%;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 35%;
+            vertical-align: middle;
+            display: table-cell;
+            max-height: 90%;
     }
     .text-animate-hover {
         &:hover {

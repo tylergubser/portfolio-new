@@ -1,18 +1,22 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  useState } from 'react'
+import {  useState, useEffect } from 'react'
 import { faHtml5, faCss3, faReact, faJsSquare, faGitAlt, faAngular} from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
 
-    // useEffect(() => {
-    //     return setTimeout(() => {
-    //         setLetterClass('text-animate-hover')
-    //     }, 3000)
-    // }, [])
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setLetterClass('text-animate-hover');
+        }, 3000);
+
+        return () => {
+            clearTimeout(timer);
+        }
+    })
     
     return(
         <>
