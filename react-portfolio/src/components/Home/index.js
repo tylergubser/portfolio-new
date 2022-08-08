@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './index.scss';
 import letterT from '../../assets/images/letterT.png'
 import AnimatedLetters from '../AnimatedLetters'
+import Loader from 'react-loaders'
 import Logo from './Logo'
 // import Loader from 'react-loaders'
 const Home = () => {
@@ -62,7 +63,7 @@ const Home = () => {
             </div>
             <Logo/>
         </div>
-        {/* <Loader type="pacman" /> */}
+        <Loader type="pacman" />
         </>
     );
 }
