@@ -48,7 +48,8 @@ const Contact = () => {
                     idx={15}/>
                 </h1>
                 <p>
-
+                    I am interested in any roles that are remote or hybrid/onsite in the Chicago land area. However, if you have other requests or questions,
+            please don't hesitate to contact me using below form either. 
                 </p>
                 <div className="contact-form">
                    <form ref={form} onSubmit={sendEmail}>
