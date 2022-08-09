@@ -47,7 +47,7 @@ const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
-            <img src={letterT} alt="JavaScript Developer Name, Web Developer Name"/>
+            <img src={letterT} alt="JavaScript Developer Name, Web Developer Name" className="letterT"/>
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -64,6 +64,7 @@ const Home = () => {
             <Link to="/contact" className="flat-button">
             CONTACT ME
             </Link>
+            <a href="https://docs.google.com/document/d/1qL9wyX2Am5tdYfcBi6IwOp0B0zNfNMZ_4i_qJaogWDw/edit" className="flat-button">RESUME</a>
             </div>
             <Logo/>
         </div>
